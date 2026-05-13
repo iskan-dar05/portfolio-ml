@@ -1,42 +1,42 @@
 export const projects = [
-  {
-    id: "neural-api-orchestrator",
-    title: "NeuralAPI Orchestrator",
-    description: "High-performance FastAPI gateway for serving deep learning models with sub-50ms latency. Integrated with Kubernetes for auto-scaling.",
-    tags: ["Python", "Docker", "PyTorch"],
-    mathBadge: "Linear Algebra",
-    demo: "",
-  },
-  {
-    id: "quant-insight-engine",
-    title: "Quant Insight Engine",
-    description: "Data visualization dashboard for financial forecasting. Built using React and Laravel with specialized time-series analysis modules.",
-    tags: ["React", "PHP 8.2", "Numpy"],
-    mathBadge: "Statistics",
-    demo: "",
-    github: "",
+  // {
+  //   id: "neural-api-orchestrator",
+  //   title: "NeuralAPI Orchestrator",
+  //   description: "High-performance FastAPI gateway for serving deep learning models with sub-50ms latency. Integrated with Kubernetes for auto-scaling.",
+  //   tags: ["Python", "Docker", "PyTorch"],
+  //   mathBadge: "Linear Algebra",
+  //   demo: "",
+  // },
+  // {
+  //   id: "quant-insight-engine",
+  //   title: "Quant Insight Engine",
+  //   description: "Data visualization dashboard for financial forecasting. Built using React and Laravel with specialized time-series analysis modules.",
+  //   tags: ["React", "PHP 8.2", "Numpy"],
+  //   mathBadge: "Statistics",
+  //   demo: "",
+  //   github: "",
 
-  },
-  {
-    id: "autonomous-logistics-hub",
-    title: "Autonomous Logistics Hub",
-    description: "A mobile application for warehouse tracking using React Native. Backend uses a custom graph algorithm for path optimization.",
-    tags: ["React Native", "Node.js", "Redis"],
-    mathBadge: "Graph Theory",
-    demo: "",
-    github: "",
+  // },
+  // {
+  //   id: "autonomous-logistics-hub",
+  //   title: "Autonomous Logistics Hub",
+  //   description: "A mobile application for warehouse tracking using React Native. Backend uses a custom graph algorithm for path optimization.",
+  //   tags: ["React Native", "Node.js", "Redis"],
+  //   mathBadge: "Graph Theory",
+  //   demo: "",
+  //   github: "",
 
-  },
-  {
-    id: "predictive-bio-analytics",
-    title: "Predictive Bio-Analytics",
-    description: "Research tool utilizing statistical inference to predict protein folding patterns. Automated Jenkins pipelines for model training.",
-    tags: ["Pandas", "FastAPI", "Jenkins"],
-    mathBadge: "Probability",
-    demo: "",
-    github: "",
+  // },
+  // {
+  //   id: "predictive-bio-analytics",
+  //   title: "Predictive Bio-Analytics",
+  //   description: "Research tool utilizing statistical inference to predict protein folding patterns. Automated Jenkins pipelines for model training.",
+  //   tags: ["Pandas", "FastAPI", "Jenkins"],
+  //   mathBadge: "Probability",
+  //   demo: "",
+  //   github: "",
 
-  },
+  // },
   {
     id: "neural-machine-translator",
     title: "Neural Machine Translator (EN–ES–FR)",
@@ -94,5 +94,76 @@ export const projects = [
       "../../public/project2/0.png",
       "../../public/project2/1.png",
     ]
-  }
+  },
+  {
+    id: "fraudshield-stream",
+    title: "FraudShield Streaming Intelligence",
+    description: "End-to-end fraud detection platform with real-time transaction streaming over WebSockets, synthetic payment event generation, multi-model fraud scoring (Random Forest, XGBoost, LightGBM, CatBoost, Neural Networks), live dashboard broadcasting, and FastAPI microservices architecture.",
+    tags: [
+      "Python",
+      "FastAPI",
+      "React",
+      "WebSockets",
+      "Scikit-learn",
+      "TensorFlow",
+      "PostgreSQL",
+      "Docker"
+    ],
+    mathBadge: "Machine Learning",
+    demo: "",
+    github: "",
+    images: [
+      "../../public/project3/1.png",
+      "../../public/project3/2.png",
+      "../../public/project3/3.png",
+      "../../public/project3/4.png",
+      "../../public/project3/5.png",
+      "../../public/project3/6.png",
+      "../../public/project3/7.png",
+      "../../public/project3/8.png",
+      "../../public/project3/10.png",
+      "../../public/project3/9.png",
+    ]
+  },
+  {
+    id: "sentinel-api-monitor",
+    title: "Sentinel API Monitor",
+    description: "Full-stack API monitoring and testing platform inspired by Postman. Supports HTTP request testing, detailed request/response logging, real-time performance analytics, interactive charts, and centralized dashboard management. Built with React frontend and Laravel backend using Sanctum session authentication.",
+    tags: [
+      "React",
+      "Laravel",
+      "Sanctum",
+      "MySQL",
+      "Chart.js",
+      "REST API"
+    ],
+    mathBadge: "API Observability",
+    demo: "",
+    github: "https://github.com/iskan-dar05/API-Monitoring-backend",
+    images: [
+      "../../public/project4/1.png",
+      "../../public/project4/2.png",
+      "../../public/project4/3.png",
+    ]
+  },
+  {
+    id: "error-solution",
+    title: "ErrorSolution",
+    description: "AI-powered mobile debugging assistant built with React Native and FastAPI. Uses a lightweight Retrieval-Augmented Generation (RAG) pipeline with FAISS vector search and Sentence-Transformers embeddings to match similar errors and provide contextual solutions for faster issue resolution.",
+    tags: [
+      "React Native",
+      "FastAPI",
+      "Python",
+      "FAISS",
+      "Sentence-Transformers",
+      "RAG",
+      "AI Search"
+    ],
+    mathBadge: "Semantic Retrieval",
+    demo: "",
+    github: "",
+    images: [
+     
+    ]
+}
 ];
