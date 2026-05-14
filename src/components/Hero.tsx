@@ -52,8 +52,8 @@ export default function Hero() {
         className="mt-20 relative"
       >
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden border-4 border-white shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
-          <img 
-            src="https://picsum.photos/seed/developer/400/400" 
+          <img
+            src="../public/profile.jpg" 
             alt="Profile" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
