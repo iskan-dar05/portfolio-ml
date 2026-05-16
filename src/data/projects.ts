@@ -165,5 +165,33 @@ export const projects = [
     images: [
      
     ]
+},
+{
+  id: "reservez",
+  title: "Reservez",
+  description: "Full-stack hotel booking and management platform featuring hotel discovery, room reservations, real-time customer-owner chat, Google OAuth authentication, booking notifications, and admin moderation tools. Built with Node.js, Express, MongoDB, and Socket.io with support for email verification, password recovery, image uploads, and role-based access control.",
+  tags: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.io",
+    "JWT",
+    "Google OAuth",
+    "Multer",
+    "Nodemailer",
+    "REST API",
+    "React"
+  ],
+  mathBadge: "Real-Time Systems",
+  demo: "",
+  github: "",
+  images: [
+    "../../public/project5/1.png",
+    "../../public/project5/2.png",
+    "../../public/project5/3.png",
+    "../../public/project5/4.png",
+    "../../public/project5/5.png",
+    "../../public/project5/6.png"
+  ]
 }
 ];

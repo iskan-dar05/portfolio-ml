@@ -30,7 +30,7 @@ export default function App() {
         <div className="space-y-8">
           <div className="w-32 h-32 rounded-xl bg-slate-200 border border-border overflow-hidden">
             <img 
-              src="https://picsum.photos/seed/developer/400/400" 
+              src="../public/profile.jpg" 
               alt="Profile" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -48,14 +48,23 @@ export default function App() {
         </div>
 
         <div className="pt-8 border-t border-border space-y-3 text-xs text-muted">
-          <div className="flex items-center gap-2">
+          <a href="mailto:iskandarboukhenoufa23@gmail.com" className="flex items-center gap-2 cursor-pointer hover:text-primary">
             <Mail size={14} /> iskandarboukhenoufa23@gmail.com
-          </div>
-          <div className="flex items-center gap-2">
+          </a>
+          <a target="_blank" href="https://github.com/iskan-dar05" className="flex items-center gap-2 cursor-pointer hover:text-primary">
             <Github size={14} /> https://github.com/iskan-dar05
-          </div>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/iskandar-boukhenoufa-97a81532a/" className="flex items-center gap-2 cursor-pointer hover:text-primary">
+            <Linkedin size={14} /> https://www.linkedin.com/in/iskandar-boukhenoufa-97a81532a/
+          </a>
           <div className="flex items-center gap-2">
-            <Linkedin size={14} /> linkedin.com/in/arivera
+            <a
+              href="../public/cv.pdf"
+              download="Iskandar_Boukhenoufa_CV.pdf"
+              className="px-4 py-2 bg-blue-500 text-white rounded"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </aside>

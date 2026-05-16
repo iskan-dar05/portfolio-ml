@@ -11,7 +11,7 @@ const skillCategories = [
   },
   {
     title: "Infrastructure",
-    skills: ["Docker", "Kubernetes", "CI/CD", "Jenkins", "AWS", "Git", "Linux Server Mgmt"]
+    skills: ["Docker", "Kubernetes", "CI/CD", "Jenkins", "Git", "Linux Server Mgmt"]
   }
 ];
 
