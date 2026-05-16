@@ -186,9 +186,9 @@ export const projects = [
   demo: "",
   github: "",
   images: [
-    "../../public/project5/1.png",
-    "../../public/project5/2.png",
-    "../../public/project5/3.png",
+    "/public/project5/1.png",
+    "/public/project5/2.png",
+    "/public/project5/3.png",
     "../../public/project5/4.png",
     "../../public/project5/5.png",
     "../../public/project5/6.png"
