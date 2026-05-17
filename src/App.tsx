@@ -23,7 +23,7 @@ export default function App() {
 
       {/* Sidebar / Info Section */}
       <aside className={`
-        fixed inset-0 z-40 bg-sidebar border-r border-border p-[45px] md:p-12 flex flex-col justify-between
+        fixed inset-0 z-40 bg-sidebar border-r border-border p-[100px] md:p-12 flex flex-col justify-between overflow-hidden
         transition-transform duration-300 md:translate-x-0 md:static md:w-[320px] lg:w-[380px] sm:py-3 md:h-screen md:sticky md:top-0
         ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}
       `}>
