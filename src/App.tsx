@@ -30,7 +30,7 @@ export default function App() {
         <div className="space-y-8">
           <div className="w-32 h-32 rounded-xl bg-slate-200 border border-border overflow-hidden">
             <img 
-              src="../public/profile.jpg" 
+              src="/profile.jpg" 
               alt="Profile" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
