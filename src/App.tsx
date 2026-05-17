@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen bg-white flex flex-col md:flex-row selection:bg-accent/10 selection:text-accent">
       {/* Mobile Header */}
       <header className="md:hidden flex items-center justify-between p-6 border-b border-border sticky top-0 bg-white z-50">
-        <div className="font-bold tracking-tight text-xl">Developer<span className="text-accent">.</span></div>
+        <div className="font-bold tracking-tight text-xl">Machine Learning Engineer & Full-Stack Developer<span className="text-accent">.</span></div>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -24,7 +24,7 @@ export default function App() {
       {/* Sidebar / Info Section */}
       <aside className={`
         fixed inset-0 z-40 bg-sidebar border-r border-border p-8 md:p-12 flex flex-col justify-between
-        transition-transform duration-300 md:translate-x-0 md:static md:w-[320px] lg:w-[380px] md:h-screen md:sticky md:top-0
+        transition-transform duration-300 md:translate-x-0 md:static md:w-[320px] lg:w-[380px] sm:py-3 md:h-screen md:sticky md:top-0
         ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}
       `}>
         <div className="space-y-8">
