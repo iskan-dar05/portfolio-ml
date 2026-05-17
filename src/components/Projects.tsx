@@ -22,9 +22,9 @@ export default function Projects() {
             <span className="math-badge">{project.mathBadge}</span>
           </div>
           <p className="text-sm text-muted leading-relaxed mb-6">{project.description}</p>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             {project.tags.map(tag => (
-              <span key={tag} className="text-[11px] text-accent font-semibold">
+              <span key={tag} className="text-[11px]  text-accent font-semibold">
                 {tag}
               </span>
             ))}

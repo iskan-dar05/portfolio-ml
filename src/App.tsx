@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen bg-white flex flex-col md:flex-row selection:bg-accent/10 selection:text-accent">
       {/* Mobile Header */}
       <header className="md:hidden flex items-center justify-between p-6 border-b border-border sticky top-0 bg-white z-50">
-        <div className="font-bold tracking-tight text-xl">Machine Learning Engineer & Full-Stack Developer<span className="text-accent">.</span></div>
+        <div className="font-bold tracking-tight text-xl">Full Stack Engineer & Data Scientist<span className="text-accent">.</span></div>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -23,11 +23,11 @@ export default function App() {
 
       {/* Sidebar / Info Section */}
       <aside className={`
-        fixed inset-0 z-40 bg-sidebar border-r border-border p-[100px] md:p-12 flex flex-col justify-between overflow-hidden
+        fixed inset-0 z-40 bg-sidebar border-r border-border px-8 py-[150px] md:p-12 flex flex-col justify-between
         transition-transform duration-300 md:translate-x-0 md:static md:w-[320px] lg:w-[380px] sm:py-3 md:h-screen md:sticky md:top-0
         ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}
       `}>
-        <div className="space-y-8">
+        <div className="space-y-8 overflow-hidden">
           <div className="w-32 h-32 rounded-xl bg-slate-200 border border-border overflow-hidden">
             <img 
               src="/profile.jpg" 
@@ -42,7 +42,7 @@ export default function App() {
             <p className="text-accent font-medium text-sm">Full Stack Engineer & Data Scientist</p>
           </div>
 
-          <p className="text-sm leading-relaxed text-muted">
+          <p className="text-sm leading-relaxed text-muted break-words whitespace-normal">
             Specializing in scalable backend architectures and AI-integrated systems. Bridging the gap between rigorous mathematics and production-grade software engineering.
           </p>
         </div>
