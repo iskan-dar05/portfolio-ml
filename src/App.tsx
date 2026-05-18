@@ -22,12 +22,19 @@ export default function App() {
       </header>
 
       {/* Sidebar / Info Section */}
-      <aside className={`
-        fixed inset-0 z-40 bg-sidebar border-r border-border px-8 py-[150px] md:p-12 flex flex-col justify-between
-        transition-transform duration-300 md:translate-x-0 md:static md:w-[320px] lg:w-[380px] sm:py-3 md:h-screen md:sticky md:top-0
-        ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}
-      `}>
-        <div className="space-y-8 overflow-hidden">
+      <aside
+        className={`
+          fixed inset-0 z-40 bg-sidebar border-r border-border
+          px-8 pt-24 pb-8 md:p-12
+          flex flex-col
+          transition-transform duration-300
+          md:translate-x-0 md:static md:w-[320px] lg:w-[380px]
+          md:h-screen md:sticky md:top-0
+          overflow-y-auto
+          ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+        <div className="space-y-8">
           <div className="w-32 h-32 rounded-xl bg-slate-200 border border-border overflow-hidden">
             <img 
               src="/profile.jpg" 
@@ -59,7 +66,7 @@ export default function App() {
           </a>
           <div className="flex items-center gap-2">
             <a
-              href="../public/cv.pdf"
+              href="/cv.pdf"
               download="Iskandar_Boukhenoufa_CV.pdf"
               className="px-4 py-2 bg-blue-500 text-white rounded"
             >
